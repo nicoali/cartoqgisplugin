@@ -7,15 +7,15 @@
 
 ## Features
 
-* Manage CARTO connections.
-* Add CARTO layers to QGIS projects.
+* Manage Cataviz connections.
+* Add Cataviz layers to QGIS projects.
 * Create QGIS layers from SQL Queries.
-* Add features to CARTO tables.
-* Edit data and update CARTO tables.
+* Add features to Cataviz tables.
+* Edit data and update Cataviz tables.
 * Edit data and update geometries.
 * Delete features.
-* Upload vector layers to CARTO.
-* Create CARTO visualizations using QGIS.
+* Upload vector layers to Cataviz.
+* Create Cataviz visualizations using QGIS.
 
 ## Documentation
 
@@ -28,7 +28,7 @@ This project was sponsored by:
 
 ### Cataviz
 
-[![CARTO](images/logo_carto.png)](https://carto.com/)
+[![CARTO](images/logo_carto.png)](http://cartonico.datapy.info/)
 
 Versions 0.1.x / 0.2
 
