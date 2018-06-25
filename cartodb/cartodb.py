@@ -95,7 +95,7 @@ class CartoDBOAuth(CartoDBBase):
     """
     This client allows to auth in cartodb using oauth.
     """
-    def __init__(self, key, secret, email, password, cartodb_domain, host='carto.com', protocol='https', proxy_info=None, *args, **kwargs):
+    def __init__(self, key, secret, email, password, cartodb_domain, host='cartonico.datapy.info', protocol='https', proxy_info=None, *args, **kwargs):
         super(CartoDBOAuth, self).__init__(cartodb_domain, host, protocol, *args, **kwargs)
 
         self.consumer_key = key
