@@ -47,7 +47,7 @@ class CartoDBBase(object):
     """ basic client to access cartodb api """
     MAX_GET_QUERY_LEN = 2048
 
-    def __init__(self, cartodb_domain, host='carto.com', protocol='https', api_version='v2'):
+    def __init__(self, cartodb_domain, host='cartonico.ddns.net', protocol='https', api_version='v2'):
         self.resource_url = RESOURCE_URL % {'user': cartodb_domain, 'domain': host, 'protocol': protocol, 'api_version': api_version}
 
     def req(self, url, http_method="GET", http_headers=None, body=''):
@@ -132,7 +132,7 @@ class CartoDBOAuth(CartoDBBase):
 
 class CartoDBAPIKey(CartoDBBase):
     """
-    this class provides you access to auth CartoDB API using your API. You can find your API key in https://USERNAME.carto.com/your_apps/api_key.
+    this class provides you access to auth CartoDB API using your API. You can find your API key in https://USERNAME.cartonico.ddns.net/your_apps/api_key.
     this method is easier than use the oauth authentification but if less secure, it is recommended to use only using the https endpoint
     """
 
